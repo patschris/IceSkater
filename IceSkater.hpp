@@ -1,3 +1,6 @@
+#ifndef _IceSkater_
+#define _IceSkater_
+
 class IceSkater {
     private:
 	    int Dist, pos;
@@ -10,3 +13,5 @@ class IceSkater {
 	    void rotate();
 	    void jump();
 };
+
+#endif

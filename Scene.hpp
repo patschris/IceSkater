@@ -1,3 +1,6 @@
+#ifndef _Scene_
+#define _Scene_
+
 class Scene {
     private:
         Background background;
@@ -9,3 +12,5 @@ class Scene {
 	    ~Scene();
 	    void plot();
 };
+
+#endif

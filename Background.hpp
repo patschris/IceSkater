@@ -1,3 +1,6 @@
+#ifndef _Background_
+#define _Background_
+
 class Background {
     private:
         Trees trees;
@@ -7,3 +10,5 @@ class Background {
     	Background() ;
 	    ~Background() ;
 };
+
+#endif

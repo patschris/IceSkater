@@ -1,3 +1,6 @@
+#ifndef _Lake_
+#define _Lake_
+
 enum Color {dark, light};
 
 class Lake {
@@ -11,3 +14,5 @@ class Lake {
         void darken();
         void rotate();
 };
+
+#endif
