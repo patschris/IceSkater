@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/*
+Constructor and Destructor of the class "Little_house"
+*/
+
 Little_house::Little_house() {
 	cout << "A little house was just created!" << endl ;
 }

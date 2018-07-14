@@ -3,10 +3,12 @@
 
 class IceSkater {
     private:
-	    int Dist, pos;
+		/* The distance that iceskater glides */
+	    int Dist;
+		/* The distance from the edge of the lake */
+		int pos;
 	public:
 		IceSkater(int);
-    	IceSkater(int, int);
 	    ~IceSkater();
 	    void start();
 	    void skate(int);

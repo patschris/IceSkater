@@ -20,7 +20,7 @@ Scene::~Scene() {
 }
 
 void Scene::plot() {
-	lake.lightup() ;
+	lake.light_up() ;
 	iceskater.start() ;
 	iceskater.skate(length/2) ;
 	iceskater.rotate() ;

@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/*
+Constructor and Destructor of the class "Mountains"
+*/
+
 Mountains::Mountains() {
 	cout << "Mountains were just created!" << endl ;
 }

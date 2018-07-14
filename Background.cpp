@@ -6,6 +6,10 @@
 
 using namespace std;
 
+/*
+Constructor and Destructor of the class "Background"
+*/
+
 Background::Background() {
 	cout << "Background was just created" << endl ;
 }
