@@ -4,9 +4,15 @@
 
 using namespace std;
 
-IceSkater::IceSkater(int dist, int p = 0) {
+IceSkater::IceSkater(int d) {
+	pos = 0;
+	Dist = d;
+	cout << "An IceSkater participates" << endl;
+}	
+
+IceSkater::IceSkater(int d, int p) {
 	pos = p;
-	Dist = dist;
+	Dist = d;
 	cout << "An IceSkater participates" << endl;
 }	
 

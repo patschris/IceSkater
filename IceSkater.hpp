@@ -2,6 +2,7 @@ class IceSkater {
     private:
 	    int Dist, pos;
 	public:
+		IceSkater(int);
     	IceSkater(int, int);
 	    ~IceSkater();
 	    void start();

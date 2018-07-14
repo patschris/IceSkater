@@ -1,4 +1,7 @@
 #include <iostream>
+#include "Trees.hpp"
+#include "House.hpp"
+#include "Mountains.hpp"
 #include "Background.hpp"
 
 using namespace std;
